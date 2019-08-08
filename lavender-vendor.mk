@@ -241,9 +241,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml \
     vendor/xiaomi/lavender/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
     vendor/xiaomi/lavender/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/lavender/proprietary/vendor/etc/thermal-engine-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-map.conf \
-    vendor/xiaomi/lavender/proprietary/vendor/etc/thermal-engine-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-normal.conf \
-    vendor/xiaomi/lavender/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/xiaomi/lavender/proprietary/vendor/etc/thermal-engine-sdm660.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660.conf \
+    vendor/xiaomi/lavender/proprietary/vendor/etc/thermal-engine-sdm660-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-camera.conf \
+    vendor/xiaomi/lavender/proprietary/vendor/etc/thermal-engine-sdm660-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-high.conf \
+    vendor/xiaomi/lavender/proprietary/vendor/etc/thermal-engine-sdm660-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-map.conf \
+    vendor/xiaomi/lavender/proprietary/vendor/etc/thermal-engine-sdm660-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-nolimits.conf \
+    vendor/xiaomi/lavender/proprietary/vendor/etc/thermal-engine-sdm660-pubgmhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-pubgmhd.conf \
+    vendor/xiaomi/lavender/proprietary/vendor/etc/thermal-engine-sdm660-sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-sgame.conf \
     vendor/xiaomi/lavender/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/lavender/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
     vendor/xiaomi/lavender/proprietary/vendor/firmware/a512_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b01 \
@@ -397,7 +401,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalfeature.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
@@ -647,7 +650,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalfeature.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
