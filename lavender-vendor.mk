@@ -1671,60 +1671,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneqmiutils.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppf.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmqmihal.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libdrplugin_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrplugin_client.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libevent_observer.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvadsp_stub.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-calwrapper.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-osal.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_externalDr.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay@1.1.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
@@ -1735,58 +1681,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmsw_detail_enhancement.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_detail_enhancement.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmsw_math.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_math.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmsw_opencl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_opencl.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libmmsw_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_platform.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_nr_fusion.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libnetmgr_rmnet_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_rmnet_ext.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libnotifyaudiohal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnotifyaudiohal.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libnwa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnwa.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_helper.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_qmux.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_common_so.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csi.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-hal-qmi.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor_stub.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
